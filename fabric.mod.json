@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "playerinfo",
+  "version": "${version}",
+  "name": "Player Info",
+  "description": "Info panel at the top of the screen for the targeted player.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.playerinfo.PlayerInfoMod"] },
+  "mixins": ["playerinfo.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
